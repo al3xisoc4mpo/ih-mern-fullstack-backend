@@ -10,5 +10,6 @@ const indexController = require("../controllers/indexController");
 // A. HOME
 router.get("/", indexController.getHome);
 
+
 // 3. EXPORTACIÓN
 module.exports = router;
